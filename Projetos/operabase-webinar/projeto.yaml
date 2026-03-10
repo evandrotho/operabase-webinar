@@ -1,0 +1,96 @@
+# projeto.yaml — Manifest do Projeto de Webinário
+
+# ============================================
+# IDENTIFICACAO
+# ============================================
+nome: "Operabase Webinar"
+slug: "operabase-webinar"
+descricao: "Webinário para venda do clube/comunidade OperaBase — centro de inteligência que ensina empresários a estruturar infraestrutura de IA dentro das empresas"
+
+criado_em: "2026-03-05"
+atualizado_em: "2026-03-05"
+
+# ============================================
+# PRODUTO E NICHO
+# ============================================
+nicho: "Inteligência Artificial para Empresas"
+produto: "OperaBase — Clube/Comunidade de Implementação de IA"
+tipo_produto: "Comunidade/Membership"
+ticket: 2500  # R$2.500 (sujeito a ajuste)
+
+# ============================================
+# RODADAS
+# ============================================
+rodadas:
+  - numero: 1
+    status: "InProgress"
+    data_webinario: "2026-03-17"
+    timeline: "D-7"
+    periodo_campanha: "2026-03-10 a 2026-03-22"
+    faturamento: null
+    leads: null
+    vendas: null
+
+rodada_ativa: 1
+
+# ============================================
+# PROGRESSO POR FASE
+# ============================================
+fases:
+  planejamento:
+    status: "InProgress"
+    artefatos_completos:
+      - canvas-cliente-ideal.md
+    artefatos_pendentes:
+      - canvas-produto.md
+      - canvas-webinar.md
+      - avatar-blueprint.md
+      - orcamento-meta.md
+      - planejamento-resumo.md
+    ultima_atualizacao: "2026-03-05"
+
+  construcao:
+    status: "Pending"
+    artefatos_completos: []
+    artefatos_pendentes:
+      - roteiro-abertura.md
+      - roteiro-empatia.md
+      - roteiro-conteudo.md
+      - roteiro-pitch.md
+      - roteiro-completo.md
+      - mensagens-whatsapp.md
+      - copy-pagina-captura.md
+      - copy-pagina-replay.md
+      - copy-pagina-fechamento.md
+    ultima_atualizacao: null
+
+  execucao:
+    status: "Pending"
+    artefatos_completos: []
+    artefatos_pendentes:
+      - guia-everwebinar.md
+      - guia-sendflow.md
+      - guia-pagamento.md
+      - guia-pixel.md
+      - timeline-campanha.md
+      - funil-7-etapas.md
+      - checklist-lancamento.md
+    ultima_atualizacao: null
+
+  analise:
+    status: "Pending"
+    artefatos_completos: []
+    artefatos_pendentes:
+      - relatorio-kpis.md
+      - diagnostico-funil.md
+      - orcado-vs-realizado.md
+      - plano-proxima-rodada.md
+    ultima_atualizacao: null
+
+# ============================================
+# NOTAS
+# ============================================
+notas:
+  - "OperaBase NÃO é software/SaaS — é um centro de inteligência/ecossistema de conhecimento"
+  - "Entrega: área de membros + encontros estratégicos + eventos presenciais"
+  - "Fornece squads e agentes de IA para acelerar implementação nas empresas"
