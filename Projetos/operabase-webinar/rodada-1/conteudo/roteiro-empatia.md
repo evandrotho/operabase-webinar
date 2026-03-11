@@ -77,7 +77,7 @@
 
 ### Passo 6 — Resultado
 
-> "Hoje eu opero 100% com agentes de IA. Zero funcionarios na operacao. Os 18 que eu tinha? Substituidos. E o resultado nao foi so financeiro — claro, a margem disparou porque a folha sumiu. Mas o que mais mudou foi minha vida."
+> "Hoje eu opero so com meu socio e agentes de IA. Os 18 funcionarios que eu tinha? Substituidos por IA. E o resultado nao foi so financeiro — claro, a margem disparou porque a folha praticamente sumiu. Mas o que mais mudou foi minha vida."
 >
 > "Eu tenho liberdade de tempo. A operacao roda sozinha. E o mais importante: os agentes de IA finalmente acompanham meu raciocinio. Pela primeira vez, eu tenho 'equipe' que executa na velocidade que eu penso."
 
@@ -134,7 +134,7 @@
   - Slide 1: Foto do Caio (antes) + "18 funcionarios"
   - Slide 2: Jornada visual (IAs avulsas → agentes reativos → infraestrutura)
   - Slide 3: Momento de epifania (destaque visual)
-  - Slide 4: Resultado (0 funcionarios, operacao 100% IA)
+  - Slide 4: Resultado (so Caio + socio, operacao com agentes de IA)
   - Slide 5: Transicao (3 coisas — teaser)
 - **Tom de voz:** Mais baixo e introspectivo na dramatizacao, crescendo na virada
 - **Pausa dramatica:** Apos "IA nao e chatbot, e INFRAESTRUTURA" e apos "a empresa roda sem voce"

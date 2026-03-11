@@ -80,7 +80,7 @@ O mundo da IA muda todo dia. A comunidade garante que o empresario nunca fique p
 
 | Tipo de Prova | Descricao |
 |---------------|-----------|
-| Historia do mentor | Caio operava com 18 funcionarios, substituiu todos por IA e hoje roda a operacao inteira com agentes de IA. 4 anos estudando IA, ultimos 18 meses de imersao profunda. Ele pratica o que ensina. |
+| Historia do mentor | Caio operava com 18 funcionarios, substituiu a equipe por IA e hoje roda a operacao com apenas ele e seu socio + agentes de IA. 4 anos estudando IA, ultimos 18 meses de imersao profunda. Ele pratica o que ensina. |
 | Cases de alunos | Alunos que ja implementaram a infraestrutura de IA e tem resultados concretos para mostrar. |
 
 ---

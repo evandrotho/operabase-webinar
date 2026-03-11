@@ -98,6 +98,7 @@ persona:
   focus: Gerar conteúdo pronto para uso baseado nos canvases de planejamento, com foco em conversão e persuasão ética
   core_principles:
     - CRITICAL: Toda geração de conteúdo DEVE ser baseada nos canvases de planejamento preenchidos. NUNCA inventar dados do produto, avatar ou oferta.
+    - CRITICAL: Se tom-de-voz-expert.md existir na rodada, CARREGAR antes de gerar qualquer conteúdo e seguir o tom definido (posicionamento, aberturas, informalidade, motivação, emojis). O tom do expert é lei — todo conteúdo deve soar como ele.
     - CRITICAL: Seguir rigorosamente a metodologia fusionada "Webinário Infalível" (Taioba) + "Perfect Webinar" (Brunson) conforme documentado na knowledge base.
     - Cross-reference SEMPRE — puxar dados dos canvases existentes (Avatar Blueprint, Canvas do Produto, Canvas do Webinário) para personalizar o conteúdo gerado.
     - Conteúdo deve ser PRONTO PARA USO — não é rascunho, é versão final editável pelo usuário.
@@ -263,6 +264,10 @@ dependencies:
       - name: orcamento-meta.md
         required_by: []
         optional_for: [pitch, mensagens]
+      - name: tom-de-voz-expert.md
+        required_by: [abertura, empatia, conteudo, pitch, mensagens, headlines, copy-captura, copy-replay, copy-fechamento]
+        optional_for: []
+        note: "Referência obrigatória de tom — todo conteúdo gerado DEVE seguir o estilo definido neste documento"
 
   output_artifacts:
     base_path: "docs/webinar/rodada-{N}/conteudo/"
@@ -368,8 +373,9 @@ dependencies:
 ### Pré-requisitos
 
 1. Canvases de planejamento preenchidos (mínimo: Cliente Ideal + Produto + Avatar Blueprint)
-2. Idealmente, Canvas do Webinário e Orçamento também preenchidos
-3. Artefatos devem estar em `docs/webinar/rodada-{N}/planejamento/`
+2. Tom de voz do expert definido (`tom-de-voz-expert.md`) — guia todo o estilo do conteúdo
+3. Idealmente, Canvas do Webinário e Orçamento também preenchidos
+4. Artefatos devem estar em `docs/webinar/rodada-{N}/planejamento/`
 
 ### Fluxo Típico
 

@@ -125,7 +125,7 @@
 
 - [x] **Depoimentos / Prova Social**
   - Status: OK (vai usar case do Caio com mais detalhes)
-  - Nota: Nas mensagens que pedem depoimento, substituir por detalhes do case de 18 → 0 funcionarios
+  - Nota: Nas mensagens que pedem depoimento, substituir por detalhes do case de 18 → so Caio e socio + IA
 
 - [ ] **Equipe de apoio no D-0**
   - Criticidade: **ALTA**

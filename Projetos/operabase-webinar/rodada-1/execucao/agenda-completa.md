@@ -42,7 +42,7 @@ Este e o seu **unico guia diario**. Abra todo dia e siga o que esta listado.
 
 - [ ] **Verificar pagina de captura** — Esta ativa? Formulario funciona? Redireciona para WhatsApp/obrigado? Se nao, ajustar usando `copy-pagina-captura.md`
 - [ ] **Ativar anuncios Facebook/Instagram** — Campanhas ja estao prontas, so ativar. Budget: ~R$450/dia (fase forte)
-- [ ] **Publicar post organico no Instagram** — Teaser: "Semana que vem vou revelar como sai de 18 funcionarios pra zero..."
+- [ ] **Publicar post organico no Instagram** — Teaser: "Semana que vem vou revelar como sai de 18 funcionarios pra so eu e meu socio com IA..."
 - [ ] **Planejar criacao dos slides** — Abrir `roteiro-completo.md`, ver secao "Checklist de Slides Sugeridos". Sao ~45 slides
 
 ### Mensagens WhatsApp
@@ -95,7 +95,7 @@ Nenhuma mensagem agendada hoje. MSG-NUT-01 (auto) continua disparando para novos
 
 | Hora | Ref | O que enviar | Para quem |
 |------|-----|-------------|-----------|
-| 08:00 | MSG-NUT-03 | Historia do Caio: "18 funcionarios → 0, e nao sou programador" | Todos os leads |
+| 08:00 | MSG-NUT-03 | Historia do Caio: "18 funcionarios → so eu e socio + IA, e nao sou programador" | Todos os leads |
 
 ---
 

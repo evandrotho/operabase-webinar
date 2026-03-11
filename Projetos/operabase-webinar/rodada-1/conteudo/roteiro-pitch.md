@@ -66,7 +66,7 @@
 >
 > "**DEPOIS do OperaBase:** Voce tem uma infraestrutura de IA estruturada. Agentes que executam trabalho real na sua empresa — atendimento, relatorios, processos — tudo funcionando de forma autonoma. Voce ganha tempo, reduz custo com equipe e finalmente escala sem contratar."
 >
-> "Eu fiz essa transicao. Sai de 18 funcionarios pra zero na operacao. E isso que o OperaBase entrega pra voce: o atalho pra chegar la sem passar pelos 18 meses de tentativa e erro que eu passei."
+> "Eu fiz essa transicao. Sai de 18 funcionarios pra so eu e meu socio com IA. E isso que o OperaBase entrega pra voce: o atalho pra chegar la sem passar pelos 18 meses de tentativa e erro que eu passei."
 
 *Trial Close: "Voce gostaria de ter esse resultado?"*
 
@@ -190,7 +190,7 @@
 
 ## Etapa 8 — Reforco da Transformacao
 
-> "Pensa comigo: voce esta a um clique de distancia de ter acesso a mesma infraestrutura que me permitiu sair de 18 funcionarios para zero na operacao."
+> "Pensa comigo: voce esta a um clique de distancia de ter acesso a mesma infraestrutura que me permitiu sair de 18 funcionarios pra so eu e meu socio com agentes de IA."
 >
 > "Imagina daqui a 30 dias: seus agentes de IA rodando atendimento, relatorios, processos. Voce finalmente com tempo. A operacao funcionando sem depender 100% de voce."
 >

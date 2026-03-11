@@ -48,7 +48,7 @@
 
 - 🤖 **O que sao Squads de IA e como empresarios comuns estao usando** — para escalar a operacao sem contratar mais gente
 
-- 🎯 **O caso real do Caio: de 18 funcionarios para zero na operacao** — e como voce pode replicar o mesmo resultado
+- 🎯 **O caso real do Caio: de 18 funcionarios para so 2 pessoas + IA** — e como voce pode replicar o mesmo resultado
 
 ---
 
@@ -77,7 +77,7 @@
 
 ## Sobre o Apresentador (breve)
 
-> **Caio** — Empresario que substituiu 18 funcionarios por agentes de IA e hoje opera 100% com infraestrutura de inteligencia artificial. 4 anos estudando IA aplicada a negocios. Nao e programador, nao e de TI — e empresario como voce.
+> **Caio** — Empresario que substituiu 18 funcionarios por agentes de IA e hoje opera so com seu socio + infraestrutura de inteligencia artificial. 4 anos estudando IA aplicada a negocios. Nao e programador, nao e de TI — e empresario como voce.
 
 ---
 

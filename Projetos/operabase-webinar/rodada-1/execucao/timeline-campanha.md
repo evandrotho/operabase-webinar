@@ -75,7 +75,7 @@
 |-----|------|------|------|-------|-------|-------|
 | D-7 | 10/03 (Ter) | 08:00 | Ativar campanha Facebook Ads (captacao) | Facebook Ads | Atracao | Budget: R$3.000 total. Fase forte: ~R$450/dia |
 | D-7 | 10/03 (Ter) | 08:00 | Ativar campanha Instagram Ads | Instagram Ads | Atracao | Mesmos criativos adaptados para Stories e Feed |
-| D-7 | 10/03 (Ter) | 10:00 | Publicar post organico (teaser) | Instagram/LinkedIn | Atracao | "Semana que vem vou revelar como sai de 18 funcionarios pra zero..." |
+| D-7 | 10/03 (Ter) | 10:00 | Publicar post organico (teaser) | Instagram/LinkedIn | Atracao | "Semana que vem vou revelar como sai de 18 funcionarios pra so eu e meu socio com IA..." |
 | D-7 | 10/03 (Ter) | — | Pagina de captura ATIVA | Landing Page | Atracao | Verificar formulario, pixel, redirect para grupo WhatsApp |
 | D-6 | 11/03 (Qua) | — | Monitorar CPL e volume de leads | Facebook Ads | Atracao | Primeiras 24h — algoritmo aprendendo |
 | D-5 | 12/03 (Qui) | — | Verificar otimizacao dos ads | Facebook Ads | Atracao | Ajustar publico/criativos se CPL > R$25 |

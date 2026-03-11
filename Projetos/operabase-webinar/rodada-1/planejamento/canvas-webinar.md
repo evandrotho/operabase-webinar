@@ -103,7 +103,7 @@
 | 1 | "Nao entendo de tecnologia" | "O OperaBase foi feito para nao-tecnicos. A infraestrutura vem pronta — voce so espelha." |
 | 2 | "Ja tentei IA e nao funcionou" | "Nao funcionou porque voce usou chatbot solto. Aqui e infraestrutura estruturada com agentes que executam." |
 | 3 | "Minha empresa e diferente" | "Os frameworks sao adaptaveis a qualquer segmento. Temos alunos de servicos, comercio, industria." |
-| 4 | "Esta caro" (R$2.500) | "Eu operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo sumiu. R$2.500 se paga no primeiro mes." |
+| 4 | "Esta caro" (R$2.500) | "Eu operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo praticamente sumiu — hoje e so eu e meu socio. R$2.500 se paga no primeiro mes." |
 | 5 | "Nao tenho tempo" | "E exatamente por nao ter tempo que voce precisa de IA. A infraestrutura espelhada reduz o tempo — voce nao comeca do zero." |
 | 6 | "E se eu comprar e nao usar?" | "O OperaBase nao e curso gravado. E comunidade ativa com encontros — voce e puxado junto. E tem garantia de 7 dias." |
 | 7 | "IA muda rapido, vai ficar desatualizado" | "Por isso e comunidade, nao curso. A equipe e os proprios alunos atualizam tudo constantemente. Voce nunca fica para tras." |

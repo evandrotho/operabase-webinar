@@ -71,7 +71,7 @@ Liberdade operacional (parar de ser refem da operacao) + sobrevivencia (nao ser 
 3. **Fonte confiavel e sempre atualizada** — equipe e alunos mantendo tudo atualizado
 
 ### Provas
-- **Historia do Caio:** Operava com 18 funcionarios, substituiu todos por IA, opera 100% com agentes
+- **Historia do Caio:** Operava com 18 funcionarios, substituiu a equipe por IA, hoje opera so com seu socio + agentes de IA
 - **Cases de alunos:** Alunos com resultados concretos de implementacao
 
 ### Stack Slide (Entregaveis)

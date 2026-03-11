@@ -92,7 +92,7 @@
   |-----|-----|------|------|------|
   | MSG-NUT-01 | Auto | D-7+ | Auto | Boas-vindas + pergunta sobre IA |
   | MSG-NUT-02 | D-5 | 12/03 (Qui) | 15:00 | Agentes de IA que executam trabalho real |
-  | MSG-NUT-03 | D-4 | 13/03 (Sex) | 08:00 | Historia do Caio (18 → 0) |
+  | MSG-NUT-03 | D-4 | 13/03 (Sex) | 08:00 | Historia do Caio (18 → so ele e socio + IA) |
   | MSG-NUT-04 | D-3 | 14/03 (Sab) | 15:00 | Prova social (case Caio detalhado) |
   | MSG-NUT-05 | D-2 | 15/03 (Dom) | 08:00 | Spoiler 3 motivos + presente |
 - **Vantagem D-7:** Cada mensagem agendada tem seu proprio dia (1 msg/dia), em vez de 2 msgs no mesmo dia como no plano anterior. Menos bombardeio, mais engajamento.

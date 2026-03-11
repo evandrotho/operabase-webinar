@@ -2,50 +2,48 @@
 
 > **Gerado por:** @webinar-creator (Spark)
 > **Rodada:** 1
-> **Data de geracao:** 2026-03-06
+> **Data de geração:** 2026-03-06
+> **Revisado em:** 2026-03-10
 > **Total de mensagens:** 41
-> **Referencia metodologica:** Secao 4 — Funil de 7 Etapas (mensagens por etapa)
+> **Referência metodológica:** Seção 4 — Funil de 7 Etapas (mensagens por etapa)
 
 ---
 
-## Variaveis Dinamicas
+## Variáveis Dinâmicas
 
-Substitua as variaveis abaixo pelos dados reais da sua campanha:
+A maioria dos dados (nome, horário, preço, etc.) já está escrita direto nas mensagens. As variáveis abaixo são as únicas que precisam ser substituídas antes do envio:
 
-| Variavel | Valor Padrao | Onde Editar |
-|----------|-------------|------------|
-| `{{nome_expert}}` | Caio | Nome do apresentador |
-| `{{data_webinario}}` | terça-feira, 10/03 | Data do webinario |
-| `{{hora_webinario}}` | 20h | Horario |
-| `{{link}}` | {{link}} | Link da pagina de captura |
-| `{{link_sala}}` | {{link_sala}} | Link da sala Zoom |
-| `{{link_compra}}` | {{link_compra}} | Link de compra |
-| `{{link_replay}}` | {{link_replay}} | Link do replay |
-| `{{produto}}` | OperaBase | Nome do produto |
-| `{{preco}}` | R$2.500 | Preco do produto |
-| `{{preco_parcelado}}` | 12x de R$208 | Parcelas |
-| `{{bonus}}` | Mentoria Individual com Caio | Bonus principal |
-| `{{presente}}` | Kit de Implementacao Rapida | Presente por participar |
-| `{{garantia}}` | 7 dias | Prazo de garantia |
+| Variável | Descrição | Onde obter |
+|----------|-----------|------------|
+| `{{link}}` | Link da página de captura | Plataforma de landing page |
+| `{{link_sala}}` | Link da sala Zoom/ao vivo | Plataforma de webinário |
+| `{{link_compra}}` | Link de compra/checkout | Plataforma de pagamento |
+| `{{link_replay}}` | Link do replay | Plataforma de hospedagem |
+| `{{link_downsell}}` | Link do produto downsell | Plataforma de pagamento |
+| `{{produto_downsell}}` | Nome do produto downsell | Definir antes de ativar Etapa 7 |
+| `{{preco_downsell}}` | Preço do downsell | Definir antes de ativar Etapa 7 |
 
 ---
 
 ## Resumo por Etapa
 
+> **Nota:** A Etapa 1 (Captação) acontece fora do WhatsApp — via landing page, anúncios e tráfego. As mensagens deste arquivo começam na Etapa 2.
+
 | Etapa | Pilar da Espiral | Qtd | Timing |
 |-------|-----------------|-----|--------|
-| Nutricao | Engajamento | 5 | D-7 a D-2 |
-| Antecipacao D-1 | Compromisso | 2 | D-1 |
-| Antecipacao D-0 | Compromisso | 7 | D-0 |
-| Pos-Webinario | Persuasao | 1 | D-0 (apos) |
-| Ampliacao | Urgencia | 7 | D+1 a D+4 |
-| Fechamento | Escassez | 11 | D+5 |
-| Downsell | Persuasao + Urgencia | 8 | D+6 a D+9 |
+| 1. Captação | — | — | Fora do WhatsApp |
+| 2. Nutrição | Engajamento | 5 | D-7 a D-2 |
+| 3A. Antecipação D-1 | Compromisso | 2 | D-1 |
+| 3B. Antecipação D-0 | Compromisso | 7 | D-0 |
+| 4. Pós-Webinário | Persuasão | 1 | D-0 (após) |
+| 5. Ampliação | Urgência | 7 | D+1 a D+4 |
+| 6. Fechamento | Escassez | 11 | D+5 |
+| 7. Downsell | Persuasão + Urgência | 8 | D+6 a D+9 |
 | **TOTAL** | — | **41** | — |
 
 ---
 
-## Etapa 2: Nutricao (5 mensagens)
+## Etapa 2: Nutrição (5 mensagens)
 
 **Pilar da Espiral:** Engajamento
 **Timing:** D-7 a D-2 (1 mensagem por dia ou a cada 2 dias)
@@ -53,64 +51,66 @@ Substitua as variaveis abaixo pelos dados reais da sua campanha:
 
 ### MSG-NUT-01 — Boas-vindas + Expectativa
 
-**Timing:** Imediato apos inscricao
+**Timing:** Imediato após inscrição
 
 ```
-Opa! Tudo bem? Aqui e o {{nome_expert}} 👋
+Fala turma, tudo certo? Aqui é o Caio 👋
 
-Vi que voce se inscreveu pra aula ao vivo sobre como estruturar IA na sua empresa. Otima decisao.
+Parabéns pela inscrição na nossa aula ao vivo sobre como estruturar IA na sua empresa. Esse conhecimento vai mudar seu jogo!
 
-Na {{data_webinario}} as {{hora_webinario}} eu vou te mostrar algo que mudou completamente minha operacao — e pode mudar a sua tambem.
+Na próxima terça-feira, às 20h, eu vou te mostrar algo que mudou completamente minha operação — e pode mudar a sua também.
 
-Enquanto isso, me conta: voce ja usa alguma IA no seu negocio hoje? Pode ser ChatGPT, qualquer coisa. Quero entender seu momento.
+Fica ligado aqui no grupo que até lá eu vou soltar uns conteúdos pra você já ir se preparando 🚀
 
-Te vejo na terca! 🚀
+Te vejo na terça às 20h!
 ```
 
 ---
 
-### MSG-NUT-02 — Conteudo de Valor #1
+### MSG-NUT-02 — Conteúdo de Valor #1
 
 **Timing:** D-6 ou D-5
 
 ```
-E ai, tudo bem? Aqui e o {{nome_expert}} de novo.
+Meu povo, seguinte...
 
-Quero te contar uma coisa que vai mudar a forma como voce ve IA:
+Quero contar uma coisa que vai mudar a forma como você vê IA:
 
-A maioria dos empresarios usa ChatGPT como um "Google mais inteligente" — pergunta, recebe resposta, e pronto.
+A maioria dos empresários usa ChatGPT como um "Google mais inteligente" — pergunta, recebe resposta, e pronto.
 
-Mas existe um OUTRO nivel de IA que quase ninguem conhece: agentes de IA que EXECUTAM trabalho real. Sozinhos. Sem voce precisar pedir.
+Mas existe um OUTRO nível de IA que quase ninguém conhece: agentes de IA que EXECUTAM trabalho real. Sozinhos. Sem você precisar pedir.
 
-Imagina um "funcionario digital" que responde seus clientes, monta relatorios e executa processos — tudo automaticamente.
+Imagina um "funcionário digital" que responde seus clientes, monta relatórios e executa processos — tudo automaticamente.
 
-Na aula ao vivo eu vou te mostrar como isso funciona na pratica. Nao perde.
+Na aula ao vivo de terça eu vou te mostrar como isso funciona na prática. Não perde 🔥
 
-{{data_webinario}}, {{hora_webinario}} 📍
+Terça-feira, 20h!
+
 ```
 
 ---
 
-### MSG-NUT-03 — Conteudo de Valor #2
+### MSG-NUT-03 — Conteúdo de Valor #2
 
 **Timing:** D-5 ou D-4
 
 ```
-Fala! {{nome_expert}} aqui.
+E aí galera, bom dia!
 
-Deixa eu te contar uma historia rapida:
+Deixa eu contar uma história rápida pra vocês:
 
-Ha 2 anos, eu tinha 18 funcionarios na minha empresa. Trabalhava mais do que qualquer um deles. Vivia esgotado, com margem apertada e frustrado.
+Há 2 anos, eu tinha 18 funcionários na minha empresa. Trabalhava mais do que qualquer um deles. Vivia esgotado, com margem apertada e frustrado.
 
-Hoje? Opero 100% com agentes de IA. Zero equipe humana na operacao. A margem disparou e eu finalmente tenho tempo.
+Hoje? Opero só eu e meu sócio — com agentes de IA fazendo o trabalho que antes precisava de 18 pessoas. A margem disparou e eu finalmente tenho tempo.
 
-"Mas Caio, voce deve ser programador, ne?"
+"Mas Caio, você deve ser programador, né?"
 
-Nao. Nao sou programador. Nao sou de TI. Sou empresario, igual voce.
+Não. Não sou programador. Não sou de TI. Sou empresário, igual você.
 
-Na aula de {{data_webinario}} eu vou te mostrar EXATAMENTE como fiz essa transicao. E como voce pode fazer em semanas, nao em meses.
+Na aula de terça eu vou te mostrar EXATAMENTE como fiz essa transição. E como você pode fazer em semanas, não em meses.
 
-Marca na agenda: {{data_webinario}}, {{hora_webinario}} ⏰
+Marca na agenda: terça-feira, 20h ⏰
+
 ```
 
 ---
@@ -120,61 +120,64 @@ Marca na agenda: {{data_webinario}}, {{hora_webinario}} ⏰
 **Timing:** D-4 ou D-3
 
 ```
-E ai! {{nome_expert}} aqui.
+Boa tarde turma!
 
-Sabe o que mais me motiva? Ver outros empresarios tendo resultado com o mesmo metodo que eu uso.
+Sabe o que mais me motiva? Ver outros empresários tendo resultado com o mesmo método que eu uso.
 
 [INSERIR DEPOIMENTO REAL DE ALUNO/CLIENTE]
 
-E isso que a Infraestrutura de IA Espelhada faz: voce nao precisa criar nada do zero. Pega o que ja funciona e espelha no seu negocio.
+É isso que a Infraestrutura de IA Espelhada faz: você não precisa criar nada do zero. Pega o que já funciona e espelha no seu negócio.
 
-Se voce quer entender como isso funciona na pratica, a aula ao vivo de {{data_webinario}} e OBRIGATORIA.
+Se você quer entender como isso funciona na prática, a aula ao vivo de terça é OBRIGATÓRIA.
 
-{{hora_webinario}} — salva ai 📌
+Terça, 20h — salva aí 📌
+
 ```
 
 ---
 
-### MSG-NUT-05 — Lembrete + Conteudo
+### MSG-NUT-05 — Lembrete + Conteúdo
 
 **Timing:** D-2
 
 ```
-Fala! {{nome_expert}} aqui.
+Fala pessoal!
 
-Faltam 2 dias pra nossa aula ao vivo e eu quero te dar um spoiler:
+Faltam 2 dias pra nossa aula ao vivo e vou dar um spoiler pra vocês:
 
-Vou te mostrar os 3 motivos reais por que a maioria dos empresarios nao consegue implementar IA — e nenhum deles e "falta de conhecimento tecnico".
+Vou mostrar os 3 motivos reais por que a maioria dos empresários não consegue implementar IA — e nenhum deles é "falta de conhecimento técnico".
 
-Ah, e quem ficar ate o final vai receber um presente especial: um {{presente}} com templates e prompts prontos pra comecar no mesmo dia.
+Ah, e quem ficar até o final vai receber um presente especial: o Kit de Implementação Rápida com templates e prompts prontos pra começar no mesmo dia.
 
-Separa 90 minutos na sua agenda de {{data_webinario}}. Vai valer cada segundo.
+Separa 90 minutos na sua agenda de terça-feira. Vai valer cada segundo.
 
-{{data_webinario}}, {{hora_webinario}} 🔥
+Terça, 20h 🔥
+
 ```
 
 ---
 
-## Etapa 3: Antecipacao D-1 (2 mensagens)
+## Etapa 3A: Antecipação D-1 (2 mensagens)
 
 **Pilar da Espiral:** Compromisso
-**Timing:** D-1 (vespera)
-**Objetivo:** Confirmar presenca, criar expectativa maxima
+**Timing:** D-1 (véspera)
+**Objetivo:** Confirmar presença, criar expectativa máxima
 
-### MSG-ANT-D1-01 — Lembrete Manha
+### MSG-ANT-D1-01 — Lembrete Manhã
 
 **Timing:** D-1, 09:00
 
 ```
-Bom dia! {{nome_expert}} aqui 🌅
+Bom dia turma! 🌅
 
-AMANHA e o dia.
+AMANHÃ é o dia.
 
-As {{hora_webinario}} eu vou te mostrar como montar uma Infraestrutura de IA Espelhada na sua empresa — sem ser tecnico e sem criar nada do zero.
+Às 20h eu vou te mostrar como montar uma Infraestrutura de IA Espelhada na sua empresa — sem ser técnico e sem criar nada do zero.
 
-Me responde com um 👍 se voce vai estar la amanha. Quero saber com quem eu estou falando.
+Se você vai estar lá amanhã, reage aqui com um 👍
 
-Ate amanha!
+Até amanhã!
+
 ```
 
 ---
@@ -184,63 +187,63 @@ Ate amanha!
 **Timing:** D-1, 20:00
 
 ```
-Boa noite! {{nome_expert}} aqui.
+Boa noite pessoal!
 
-Amanha as {{hora_webinario}} a gente se encontra. Ultima vez que vou te lembrar antes do dia.
+Amanhã às 20h a gente se encontra. Última vez que vou lembrar antes do dia.
 
-3 coisas pra voce se preparar:
-1️⃣ Separe 90 minutos sem interrupcao
+3 coisas pra você se preparar:
+1️⃣ Separe 90 minutos sem interrupção
 2️⃣ Tenha papel e caneta por perto (ou bloco de notas)
-3️⃣ Fique ate o final — tem presente especial
+3️⃣ Fique até o final — tem presente especial
 
-Amanha pode ser o dia que muda a forma como voce usa IA no seu negocio.
+Amanhã pode ser o dia que muda a forma como você usa IA no seu negócio.
 
-Ate amanha, {{hora_webinario}} 🎯
+Até amanhã, 20h 🎯
+
 ```
 
 ---
 
-## Etapa 3: Antecipacao D-0 (7 mensagens)
+## Etapa 3B: Antecipação D-0 (7 mensagens)
 
 **Pilar da Espiral:** Compromisso
-**Timing:** D-0 (dia do webinario)
+**Timing:** D-0 (dia do webinário)
 **Objetivo:** Maximizar comparecimento
 
-### MSG-ANT-D0-01 — Manha Cedo
+### MSG-ANT-D0-01 — Manhã Cedo
 
 **Timing:** D-0, 08:00
 
 ```
-Bom dia! 🔥
+Bom dia turma! 🔥
 
-HOJE e o dia.
+HOJE é o dia.
 
-As {{hora_webinario}} eu vou ao vivo te mostrar como empresarios comuns estao substituindo equipe inteira por IA — sem criar nada do zero.
+Às 20h eu vou ao vivo te mostrar como empresários comuns estão substituindo equipe inteira por IA — sem criar nada do zero.
 
-Hoje voce vai entender o que e a Infraestrutura de IA Espelhada e por que isso muda tudo.
+Hoje você vai entender o que é a Infraestrutura de IA Espelhada e por que isso muda tudo.
 
-Se prepare. {{hora_webinario}}, ao vivo. 🚀
+Se prepare. 20h, ao vivo 🚀
 
-— {{nome_expert}}
 ```
 
 ---
 
 ### MSG-ANT-D0-02 — 2h Antes
 
-**Timing:** D-0, 2h antes do webinario
+**Timing:** D-0, 2h antes do webinário
 
 ```
-Faltam 2 horas! ⏰
+Meu povo, faltam 2 horas! ⏰
 
-As {{hora_webinario}} eu vou ao vivo. Aqui esta o link da sala:
+Às 20h eu vou ao vivo. Aqui está o link da sala:
 
 👉 {{link_sala}}
 
-Salva esse link. Clica nele na hora certa e voce entra direto.
+Salva esse link. Clica nele na hora certa e você entra direto.
 
-Te espero la!
-— {{nome_expert}}
+Te espero lá!
+
 ```
 
 ---
@@ -250,16 +253,16 @@ Te espero la!
 **Timing:** D-0, 1h antes
 
 ```
-1 hora pra gente comecar! 🕐
+1 hora pra gente começar! 🕐
 
 Lembrete:
-📍 Horario: {{hora_webinario}}
+📍 Horário: 20h
 🔗 Link: {{link_sala}}
 
-Dica: entra uns 5 minutos antes pra testar seu audio e garantir que ta tudo certo.
+Dica: entra uns 5 minutos antes pra testar seu áudio e garantir que tá tudo certo.
 
 Nos vemos em 1 hora!
-— {{nome_expert}}
+
 ```
 
 ---
@@ -269,18 +272,18 @@ Nos vemos em 1 hora!
 **Timing:** D-0, 30min antes
 
 ```
-30 minutos! 🔥🔥
+30 minutos, galera! 🔥🔥
 
-Ja esta quase na hora. Voce vai descobrir:
+Já está quase na hora. Você vai descobrir:
 
 ✅ Por que ChatGPT sozinho NUNCA vai resolver os problemas da sua empresa
-✅ O metodo que eu usei pra substituir 18 funcionarios por IA
-✅ Como montar tudo em semanas, nao meses
+✅ O método que eu usei pra substituir 18 funcionários por IA
+✅ Como montar tudo em semanas, não meses
 
 Link da sala: {{link_sala}}
 
-Entra agora e ja me espera la!
-— {{nome_expert}}
+Entra agora e já me espera lá!
+
 ```
 
 ---
@@ -292,21 +295,21 @@ Entra agora e ja me espera la!
 ```
 15 minutos! ⚡
 
-Estou finalizando os preparativos. A sala ja esta aberta.
+Estou finalizando os preparativos. A sala já está aberta.
 
 👉 {{link_sala}}
 
-Entra agora. Quem chegar primeiro garante as melhores interacoes no chat.
+Entra agora. Quem chegar primeiro garante as melhores interações no chat.
 
 Te vejo em instantes!
-— {{nome_expert}}
+
 ```
 
 ---
 
 ### MSG-ANT-D0-06 — Ao Vivo
 
-**Timing:** D-0, inicio do webinario
+**Timing:** D-0, início do webinário
 
 ```
 🔴 ESTAMOS AO VIVO!
@@ -314,92 +317,89 @@ Te vejo em instantes!
 Entra AGORA:
 👉 {{link_sala}}
 
-Ja estou apresentando. Corre!
+Já estou apresentando. Corre!
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-ANT-D0-07 — 10min Apos Inicio
+### MSG-ANT-D0-07 — 10min Após Início
 
 **Timing:** D-0, +10min
 
 ```
-Ja comecou e esta INCRIVEL! 🔥
+Já começou e está INCRÍVEL! 🔥
 
-Ainda da tempo de entrar. Eu acabei de explicar o que sao agentes de IA e a diferenca e ABSURDA em relacao ao ChatGPT.
+Ainda dá tempo de entrar. Acabei de explicar o que são agentes de IA e a diferença é ABSURDA em relação ao ChatGPT.
 
 Entra agora:
 👉 {{link_sala}}
 
-Nao perde isso.
-— {{nome_expert}}
+Não perde isso.
+
 ```
 
 ---
 
-## Etapa 4: Pos-Webinario (1 mensagem)
+## Etapa 4: Pós-Webinário (1 mensagem)
 
-**Pilar da Espiral:** Persuasao
-**Timing:** D-0, logo apos o webinario
-**Objetivo:** Reforcar oferta, direcionar para compra
+**Pilar da Espiral:** Persuasão
+**Timing:** D-0, logo após o webinário
+**Objetivo:** Reforçar oferta, direcionar para compra
 
 ### MSG-POS-01 — Agradecimento + Oferta
 
-**Timing:** D-0, +30min apos fim
+**Timing:** D-0, +30min após fim
 
 ```
-Muito obrigado por ter ficado comigo hoje! 🙏
+Meu povo, muito obrigado por terem ficado comigo hoje! 🙏
 
-Se voce ficou ate o final, viu que a Infraestrutura de IA Espelhada e real e funciona. Agora e hora de agir.
+Se você ficou até o final, viu que a Infraestrutura de IA Espelhada é real e funciona. Agora é hora de agir.
 
-Resumo rapido do que voce recebe no {{produto}}:
+Resumo rápido do que você recebe no OperaBase:
 
-✅ Area de Membros com conteudo sempre atualizado
+✅ Área de Membros com conteúdo sempre atualizado
 ✅ Frameworks de IA prontos pra espelhar
 ✅ Dashboard de Infraestrutura (painel de controle)
-✅ Squads de IA Operacionais pre-configurados
-✅ Encontros Estrategicos comigo ao vivo
+✅ Squads de IA Operacionais pré-configurados
+✅ Encontros Estratégicos comigo ao vivo
 ✅ Eventos Presenciais com networking
 
-+ 3 bonus exclusivos (incluindo Mentoria Individual — so 3 vagas!)
++ 3 bônus exclusivos (incluindo Mentoria Individual — só 3 vagas!)
 
-Tudo isso por {{preco}} (ou {{preco_parcelado}}).
+Tudo isso por R$2.500 (ou 12x de R$208).
 
-Garantia de {{garantia}} — risco zero.
+Garantia de 7 dias — risco zero.
 
 👉 {{link_compra}}
 
-Se tiver qualquer duvida, me responde aqui.
+Qualquer dúvida, manda aqui no grupo.
 
-— {{nome_expert}}
 ```
 
 ---
 
-## Etapa 5: Ampliacao (7 mensagens)
+## Etapa 5: Ampliação (7 mensagens)
 
-**Pilar da Espiral:** Urgencia
+**Pilar da Espiral:** Urgência
 **Timing:** D+1 a D+4
 **Objetivo:** Manter impacto, converter indecisos via replay
 
-### MSG-AMP-01 — D+1 Manha — Replay
+### MSG-AMP-01 — D+1 Manhã — Replay
 
 **Timing:** D+1, 09:00
 
 ```
-Bom dia! {{nome_expert}} aqui.
+Bom dia turma!
 
-Se voce nao conseguiu assistir a aula de ontem — ou quer rever — o replay esta disponivel:
+Se você não conseguiu assistir a aula de ontem — ou quer rever — o replay está disponível:
 
 👉 {{link_replay}}
 
 ⚠️ Aviso: o replay fica no ar por TEMPO LIMITADO. Depois disso, sai do ar.
 
-Assista e voce vai entender por que empresarios comuns estao substituindo equipe inteira por IA.
+Assista e você vai entender por que empresários comuns estão substituindo equipe inteira por IA.
 
-— {{nome_expert}}
 ```
 
 ---
@@ -409,43 +409,41 @@ Assista e voce vai entender por que empresarios comuns estao substituindo equipe
 **Timing:** D+1, 15:00
 
 ```
-Fala! {{nome_expert}} aqui.
+E aí galera!
 
-Se voce nao tem 90 minutos pra assistir tudo, vai direto nestes momentos:
+Se você não tem 90 minutos pra assistir tudo, vai direto nesses momentos:
 
-⏱️ **Minuto 12** — A epifania que mudou tudo: "IA nao e chatbot, e infraestrutura"
-⏱️ **Minuto 16** — Os 3 niveis de IA (a maioria so conhece o primeiro)
-⏱️ **Minuto 52** — Tudo que voce recebe no OperaBase (Stack completo)
-⏱️ **Minuto 60** — O preco que vai te surpreender
+⏱️ Minuto 12 — A epifania que mudou tudo: "IA não é chatbot, é infraestrutura"
+⏱️ Minuto 16 — Os 3 níveis de IA (a maioria só conhece o primeiro)
+⏱️ Minuto 52 — Tudo que você recebe no OperaBase (Stack completo)
+⏱️ Minuto 60 — O preço que vai te surpreender
 
 👉 {{link_replay}}
 
-Sao 4 momentos que mudam a perspectiva. Assiste pelo menos esses.
+São 4 momentos que mudam a perspectiva. Assiste pelo menos esses.
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-AMP-03 — D+2 Manha — Depoimento
+### MSG-AMP-03 — D+2 Manhã — Depoimento
 
 **Timing:** D+2, 09:00
 
 ```
-E ai! {{nome_expert}} aqui.
+Fala pessoal, bom dia!
 
-Quero compartilhar o resultado de quem ja esta usando a Infraestrutura de IA Espelhada:
+Quero compartilhar o resultado de quem já está usando a Infraestrutura de IA Espelhada:
 
 [INSERIR DEPOIMENTO REAL — resultado concreto, nome e contexto]
 
-Isso e o que acontece quando voce para de usar IA avulsa e monta a ESTRUTURA certa.
+Isso é o que acontece quando você para de usar IA avulsa e monta a ESTRUTURA certa.
 
-Se voce ainda nao assistiu a aula, o replay esta aqui:
+Se você ainda não assistiu a aula, o replay está aqui:
 👉 {{link_replay}}
 
-E se ja assistiu e quer entrar: {{link_compra}}
+E se já assistiu e quer entrar: {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -455,93 +453,89 @@ E se ja assistiu e quer entrar: {{link_compra}}
 **Timing:** D+2, 15:00
 
 ```
-Fala! {{nome_expert}} aqui.
+Boa tarde turma!
 
 Recebi MUITAS perguntas depois da aula. Vou responder a mais frequente:
 
-❓ "Caio, eu nao entendo de tecnologia. Isso funciona pra mim?"
+❓ "Caio, eu não entendo de tecnologia. Isso funciona pra mim?"
 
-O OperaBase foi feito EXATAMENTE pra quem nao e tecnico. Eu nao sou programador. A infraestrutura ja vem pronta — voce so espelha no seu negocio. E como instalar um app no celular: voce nao criou o app, mas usa todo dia.
+O OperaBase foi feito EXATAMENTE pra quem não é técnico. Eu não sou programador. A infraestrutura já vem pronta — você só espelha no seu negócio. É como instalar um app no celular: você não criou o app, mas usa todo dia.
 
-Se essa era sua duvida, agora voce sabe: e pra voce sim.
+Se essa era sua dúvida, agora você sabe: é pra você sim.
 
 👉 {{link_compra}}
 
-Outra duvida? Me responde aqui.
+Outra dúvida? Manda aqui no grupo.
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-AMP-05 — D+3 Manha — Bastidores
+### MSG-AMP-05 — D+3 Manhã — Bastidores
 
 **Timing:** D+3, 09:00
 
 ```
-Bom dia! {{nome_expert}} aqui.
+Bom dia meu povo!
 
-Quero te contar algo dos bastidores que pouca gente sabe:
+Quero contar algo dos bastidores que pouca gente sabe:
 
-Quando eu comecei a montar minha infraestrutura de IA, eu fiz tudo SOZINHO. Sem guia. Sem comunidade. Sem ninguem pra perguntar.
+Quando eu comecei a montar minha infraestrutura de IA, fiz tudo SOZINHO. Sem guia. Sem comunidade. Sem ninguém pra perguntar.
 
-Levei 18 meses de tentativa e erro ate funcionar.
+Levei 18 meses de tentativa e erro até funcionar.
 
-O OperaBase existe pra que voce NAO precise passar por isso. Voce pega o que ja esta pronto e espelha. Em vez de meses, semanas.
+O OperaBase existe pra que você NÃO precise passar por isso. Você pega o que já está pronto e espelha. Em vez de meses, semanas.
 
 Eu queria ter tido algo assim quando comecei. Teria economizado um ano e meio da minha vida.
 
-Se quiser comecar: {{link_compra}}
+Se quiser começar: {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-AMP-06 — D+3 Tarde — Bonus Extra
+### MSG-AMP-06 — D+3 Tarde — Bônus Extra
 
 **Timing:** D+3, 15:00
 
 ```
-E ai! {{nome_expert}} aqui com um lembrete importante:
+E aí turma, lembrete importante!
 
-Quem entrar no {{produto}} agora recebe 3 bonus:
+Quem entrar no OperaBase agora recebe 3 bônus:
 
-🎁 **Mentoria Individual comigo** (30 min, 1-a-1) — so pras 3 primeiras vagas
-🎁 **Kit de Implementacao Rapida** — templates e prompts pra comecar no dia 1
-🎁 **Grupo VIP** — suporte direto comigo por 30 dias
+🎁 Mentoria Individual comigo (30 min, 1-a-1) — só pras 3 primeiras vagas
+🎁 Kit de Implementação Rápida — templates e prompts pra começar no dia 1
+🎁 Grupo VIP — suporte direto comigo por 30 dias
 
-Esses bonus TEM prazo. A Mentoria ja tem vagas limitadissimas e o Kit expira em breve.
+Esses bônus TÊM prazo. A Mentoria já tem vagas limitadíssimas e o Kit expira em breve.
 
-Se voce ja sabe que quer, nao espera:
+Se você já sabe que quer, não espera:
 👉 {{link_compra}}
 
-{{preco}} | {{preco_parcelado}} | Garantia de {{garantia}}
+R$2.500 | 12x de R$208 | Garantia de 7 dias
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-AMP-07 — D+4 — Ultimo Lembrete
+### MSG-AMP-07 — D+4 — Último Lembrete
 
 **Timing:** D+4, 10:00
 
 ```
-{{nome_expert}} aqui. Ultimo aviso antes do fechamento:
+Turma, atenção. Último aviso antes do fechamento:
 
-AMANHA e o ultimo dia pra entrar no {{produto}} com as condicoes especiais do webinario.
+AMANHÃ é o último dia pra entrar no OperaBase com as condições especiais do webinário.
 
-Depois de amanha:
-❌ O preco volta pra R$5.000 (hoje e {{preco}})
-❌ Os bonus expiram
-❌ As vagas da Mentoria Individual provavelmente ja terao acabado
+Depois de amanhã:
+❌ O preço volta pra R$5.000 (hoje é R$2.500)
+❌ Os bônus expiram
+❌ As vagas da Mentoria Individual provavelmente já terão acabado
 
-Voce ficou comigo por quase 90 minutos na aula. Voce viu que e possivel. A unica coisa que falta e a decisao.
+Você ficou comigo por quase 90 minutos na aula. Você viu que é possível. A única coisa que falta é a decisão.
 
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -549,31 +543,30 @@ Voce ficou comigo por quase 90 minutos na aula. Voce viu que e possivel. A unica
 ## Etapa 6: Fechamento (11 mensagens)
 
 **Pilar da Espiral:** Escassez
-**Timing:** D+5 (ultimo dia)
-**Objetivo:** Converter com urgencia real — deadline
+**Timing:** D+5 (último dia)
+**Objetivo:** Converter com urgência real — deadline
 
-### MSG-FEC-01 — Manha — Ultimo Dia
+### MSG-FEC-01 — Manhã — Último Dia
 
 **Timing:** D+5, 08:00
 
 ```
-🚨 ULTIMO DIA
+🚨 ÚLTIMO DIA
 
-Bom dia! {{nome_expert}} aqui.
+Bom dia turma!
 
-Hoje a meia-noite o carrinho do {{produto}} fecha com as condicoes do webinario.
+Hoje à meia-noite o carrinho do OperaBase fecha com as condições do webinário.
 
 Resumo:
-✅ 6 entregaveis + 3 bonus = R$52.473 em valor
-✅ Seu investimento: {{preco}} (ou {{preco_parcelado}})
-✅ Garantia de {{garantia}} — risco zero
+✅ 6 entregáveis + 3 bônus = R$52.473 em valor
+✅ Seu investimento: R$2.500 (ou 12x de R$208)
+✅ Garantia de 7 dias — risco zero
 
-Amanha o preco volta pra R$5.000 e os bonus somem.
+Amanhã o preço volta pra R$5.000 e os bônus somem.
 
-Se voce vai entrar, hoje e o dia.
+Se você vai entrar, hoje é o dia.
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -583,37 +576,33 @@ Se voce vai entrar, hoje e o dia.
 **Timing:** D+5, 10:00
 
 ```
-{{nome_expert}} aqui.
+Meu povo, olha isso:
 
-Olha o que o [NOME] me mandou ontem:
+[INSERIR DEPOIMENTO FORTE — resultado concreto, transformação clara]
 
-[INSERIR DEPOIMENTO FORTE — resultado concreto, transformacao clara]
+Isso é o OperaBase na prática. Infraestrutura pronta, resultado real.
 
-Isso e o OperaBase na pratica. Infraestrutura pronta, resultado real.
+Hoje é o último dia: {{link_compra}}
 
-Hoje e o ultimo dia: {{link_compra}}
-
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-FEC-03 — 12h — Bonus Expira
+### MSG-FEC-03 — 12h — Bônus Expira
 
 **Timing:** D+5, 12:00
 
 ```
 ⏰ Faltam 12 horas.
 
-{{nome_expert}} aqui com um alerta:
+Turma, alerta importante:
 
-O **Kit de Implementacao Rapida** (R$1.997 de valor) expira HOJE a meia-noite. Sao templates, prompts e squads prontos pra voce comecar no primeiro dia.
+O Kit de Implementação Rápida (R$1.997 de valor) expira HOJE à meia-noite. São templates, prompts e squads prontos pra você começar no primeiro dia.
 
-Depois de hoje, esse bonus NAO estara mais disponivel.
+Depois de hoje, esse bônus NÃO estará mais disponível.
 
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -623,24 +612,21 @@ Depois de hoje, esse bonus NAO estara mais disponivel.
 **Timing:** D+5, 14:00
 
 ```
-{{nome_expert}} aqui.
+Galera, vou responder as 3 perguntas que mais recebi:
 
-3 perguntas que mais recebi:
+❓ "Está caro?"
+→ Eu gastava MILHARES por mês só em folha de pagamento com 18 funcionários. O OperaBase se paga no primeiro mês de economia.
 
-❓ "Esta caro?"
-→ Eu gastava MILHARES por mes so em folha de pagamento com 18 funcionarios. O OperaBase se paga no primeiro mes de economia.
+❓ "Não tenho tempo."
+→ É exatamente por não ter tempo que você precisa de IA. IA te DEVOLVE tempo.
 
-❓ "Nao tenho tempo."
-→ E exatamente por nao ter tempo que voce precisa de IA. IA te DEVOLVE tempo.
+❓ "E se não funcionar pra mim?"
+→ Garantia de 7 dias. Se não gostar, devolvo 100%. Risco zero.
 
-❓ "E se nao funcionar pra mim?"
-→ Garantia de {{garantia}}. Se nao gostar, devolvo 100%. Risco zero.
+Alguma outra dúvida? Manda aqui no grupo.
 
-Alguma outra duvida? Me responde aqui.
+Se já decidiu: {{link_compra}}
 
-Se ja decidiu: {{link_compra}}
-
-— {{nome_expert}}
 ```
 
 ---
@@ -650,17 +636,16 @@ Se ja decidiu: {{link_compra}}
 **Timing:** D+5, 16:00
 
 ```
-{{nome_expert}} aqui. Faltam 8 horas.
+Turma, faltam 8 horas.
 
-Enquanto voce pensa, outras pessoas ja estao implementando:
+Enquanto você pensa, outras pessoas já estão implementando:
 
 [INSERIR 2-3 PRINTS DE ALUNOS/COMPRADORES — resultados ou feedback positivo]
 
-Eles decidiram agir. E voce?
+Eles decidiram agir. E você?
 
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -670,19 +655,18 @@ Eles decidiram agir. E voce?
 **Timing:** D+5, 18:00
 
 ```
-{{nome_expert}} aqui. 6 horas.
+Faltam 6 horas, meu povo.
 
-Sei que talvez voce tenha uma voz na cabeca dizendo: "e se nao for pra mim?"
+Sei que talvez você tenha uma voz na cabeça dizendo: "e se não for pra mim?"
 
-Por isso existe a garantia de {{garantia}}:
+Por isso existe a garantia de 7 dias:
 
-Entra. Explora. Testa. Se em 7 dias nao gostar, pede reembolso. Devolvo 100%, sem pergunta, sem burocracia.
+Entra. Explora. Testa. Se em 7 dias não gostar, pede reembolso. Devolvo 100%, sem pergunta, sem burocracia.
 
-O UNICO risco e nao tentar.
+O ÚNICO risco é não tentar.
 
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -694,18 +678,17 @@ O UNICO risco e nao tentar.
 ```
 🔴 4 HORAS.
 
-{{nome_expert}} aqui.
+Galera, atenção:
 
 Daqui a 4 horas:
-❌ O preco volta pra R$5.000
-❌ Os bonus desaparecem
+❌ O preço volta pra R$5.000
+❌ Os bônus desaparecem
 ❌ A Mentoria Individual (se ainda tiver vaga) encerra
 
-Depois de hoje, nao tem como voltar atras.
+Depois de hoje, não tem como voltar atrás.
 
-Se voce vai entrar, e AGORA: {{link_compra}}
+Se você vai entrar, é AGORA: {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -715,19 +698,18 @@ Se voce vai entrar, e AGORA: {{link_compra}}
 **Timing:** D+5, 21:00
 
 ```
-3 horas. ⏰
+3 horas, turma ⏰
 
-Voce ficou comigo por 90 minutos no webinario.
+Você ficou comigo por 90 minutos no webinário.
 
-Voce viu que IA vai MUITO alem de chatbot.
-Voce viu que nao precisa ser tecnico.
-Voce viu que nao demora meses.
+Você viu que IA vai MUITO além de chatbot.
+Você viu que não precisa ser técnico.
+Você viu que não demora meses.
 
-Voce ja sabe o que fazer. So falta agir.
+Você já sabe o que fazer. Só falta agir.
 
 👉 {{link_compra}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -739,177 +721,165 @@ Voce ja sabe o que fazer. So falta agir.
 ```
 2 horas. 🚨
 
-{{nome_expert}} aqui.
+Meu povo, pensa comigo: quanto custa continuar fazendo tudo sozinho por mais 6 meses?
 
-Pensa comigo: quanto custa continuar fazendo tudo sozinho por mais 6 meses?
+Quanto custa manter uma equipe que não acompanha?
+Quanto custa perder tempo com IA avulsa que não funciona?
 
-Quanto custa manter uma equipe que nao acompanha?
-Quanto custa perder tempo com IA avulsa que nao funciona?
+O investimento de R$2.500 é uma fração do que você perde todo mês SEM a infraestrutura certa.
 
-O investimento de {{preco}} e uma fracao do que voce perde todo mes SEM a infraestrutura certa.
+Último momento: {{link_compra}}
 
-Ultimo momento: {{link_compra}}
-
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-FEC-10 — 23h — Ultima Hora
+### MSG-FEC-10 — 23h — Última Hora
 
 **Timing:** D+5, 23:00
 
 ```
-⚠️ ULTIMA HORA.
+⚠️ ÚLTIMA HORA.
 
-{{nome_expert}} aqui.
+Em 60 minutos, essa oferta encerra. De verdade. Não é marketing — o preço VOLTA pra R$5.000 e os bônus SÃO removidos.
 
-Em 60 minutos, essa oferta encerra. De verdade. Nao e marketing — o preco VOLTA pra R$5.000 e os bonus SAO removidos.
+OperaBase por R$2.500 com tudo incluído + garantia de 7 dias.
 
-{{produto}} por {{preco}} com tudo incluido + garantia de {{garantia}}.
+Sua última chance: {{link_compra}}
 
-Sua ultima chance: {{link_compra}}
-
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-FEC-11 — 23:45 — Ultimos 15min
+### MSG-FEC-11 — 23:45 — Últimos 15min
 
 **Timing:** D+5, 23:45
 
 ```
 🔴🔴🔴 15 MINUTOS.
 
-Ultimo aviso. Depois disso, acabou.
+Último aviso. Depois disso, acabou.
 
-{{preco}} | {{preco_parcelado}} | Garantia {{garantia}} | Risco ZERO.
+R$2.500 | 12x de R$208 | Garantia 7 dias | Risco ZERO.
 
 👉 {{link_compra}}
 
 Agora ou nunca.
 
-— {{nome_expert}}
 ```
 
 ---
 
 ## Etapa 7: Downsell (8 mensagens)
 
-**Pilar da Espiral:** Persuasao + Urgencia
+**Pilar da Espiral:** Persuasão + Urgência
 **Timing:** D+6 a D+9
-**Objetivo:** Converter quem nao comprou com oferta alternativa
+**Objetivo:** Converter quem não comprou com oferta alternativa
 
-> **NOTA:** As mensagens de downsell abaixo usam {{produto_downsell}}, {{preco_downsell}} e {{link_downsell}} como placeholders. Defina a oferta alternativa antes de ativar esta sequencia. Se nao houver downsell nesta rodada, IGNORE esta etapa.
+> **NOTA:** As mensagens de downsell usam variáveis de produto downsell (`{{produto_downsell}}`, `{{preco_downsell}}`, `{{link_downsell}}`) porque esse produto ainda não foi definido. Defina a oferta alternativa antes de ativar esta etapa. Se não houver downsell nesta rodada, IGNORE esta etapa.
 
-### MSG-DOW-01 — D+6 Manha — Apresentacao
+### MSG-DOW-01 — D+6 Manhã — Apresentação
 
 **Timing:** D+6, 09:00
 
 ```
-{{nome_expert}} aqui.
+Fala turma, bom dia!
 
-O carrinho do {{produto}} fechou ontem. Se voce nao entrou, eu entendo — talvez o momento nao era o certo ou o investimento pesou.
+O carrinho do OperaBase fechou ontem. Se você não entrou, eu entendo — talvez o momento não era o certo ou o investimento pesou.
 
-Mas eu nao quero te deixar sem opcao.
+Mas eu não quero te deixar sem opção.
 
-Por isso criei algo especial pra quem ficou de fora: o **{{produto_downsell}}**.
+Por isso criei algo especial pra quem ficou de fora: o {{produto_downsell}}.
 
-E uma forma de comecar menor, com um investimento mais acessivel, e depois decidir se quer o pacote completo.
+É uma forma de começar menor, com um investimento mais acessível, e depois decidir se quer o pacote completo.
 
-Amanha te conto os detalhes.
+Amanhã te conto os detalhes.
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-DOW-02 — D+6 Tarde — Explicacao
+### MSG-DOW-02 — D+6 Tarde — Explicação
 
 **Timing:** D+6, 15:00
 
 ```
-{{nome_expert}} aqui.
+Boa tarde meu povo!
 
-O **{{produto_downsell}}** e pra voce que:
-- Quer comecar com IA mas nao esta pronto pro investimento completo
+O {{produto_downsell}} é pra você que:
+- Quer começar com IA mas não está pronto pro investimento completo
 - Prefere testar antes de mergulhar
-- Quer acesso ao essencial sem comprometer o orcamento
+- Quer acesso ao essencial sem comprometer o orçamento
 
-O que esta incluido:
+O que está incluído:
 {{inserir_entregaveis_downsell}}
 
-Investimento: **{{preco_downsell}}**
+Investimento: {{preco_downsell}}
 
-Sem risco: garantia de {{garantia}}.
+Sem risco: garantia de 7 dias.
 
-Quer saber mais? Me responde aqui.
+Quer saber mais? Manda aqui no grupo.
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-DOW-03 — D+7 Manha — Depoimento
+### MSG-DOW-03 — D+7 Manhã — Depoimento
 
 **Timing:** D+7, 09:00
 
 ```
-Bom dia! {{nome_expert}} aqui.
+Bom dia galera!
 
-[INSERIR DEPOIMENTO de alguem que comecou pelo nivel inicial e evoluiu]
+[INSERIR DEPOIMENTO de alguém que começou pelo nível inicial e evoluiu]
 
-Comecar menor nao significa resultado menor. Significa comecar AGORA em vez de esperar.
+Começar menor não significa resultado menor. Significa começar AGORA em vez de esperar.
 
 {{produto_downsell}} por {{preco_downsell}}: {{link_downsell}}
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-DOW-04 — D+7 Tarde — Comparacao
+### MSG-DOW-04 — D+7 Tarde — Comparação
 
 **Timing:** D+7, 15:00
 
 ```
-{{nome_expert}} aqui.
+E aí turma, boa tarde!
 
-Vamos fazer uma conta rapida:
+Vamos fazer uma conta rápida:
 
-Quanto voce gasta por mes com:
-- Funcionarios que poderiam ser substituidos por IA?
-- Ferramentas avulsas que nao se conversam?
+Quanto você gasta por mês com:
+- Funcionários que poderiam ser substituídos por IA?
+- Ferramentas avulsas que não se conversam?
 - Tempo perdido fazendo tarefas manuais?
 
-Agora compara com {{preco_downsell}} — um unico investimento pra comecar a mudar isso.
+Agora compara com {{preco_downsell}} — um único investimento pra começar a mudar isso.
 
-O custo de NAO agir e sempre maior.
+O custo de NÃO agir é sempre maior.
 
 👉 {{link_downsell}}
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-DOW-05 — D+8 Manha — Ultima Chance
+### MSG-DOW-05 — D+8 Manhã — Última Chance
 
 **Timing:** D+8, 09:00
 
 ```
-{{nome_expert}} aqui.
+Fala pessoal, bom dia!
 
-Essa e a penultima vez que eu te falo sobre o {{produto_downsell}}.
+Essa é a penúltima vez que eu falo sobre o {{produto_downsell}}.
 
-Amanha essa oferta tambem encerra. E eu nao sei quando (ou se) vou abrir de novo.
+Amanhã essa oferta também encerra. E eu não sei quando (ou se) vou abrir de novo.
 
-Se voce quer comecar sua jornada com IA de forma estruturada, esse e o caminho mais acessivel que existe:
+Se você quer começar sua jornada com IA de forma estruturada, esse é o caminho mais acessível que existe:
 
-{{preco_downsell}} | Garantia {{garantia}} | {{link_downsell}}
+{{preco_downsell}} | Garantia 7 dias | {{link_downsell}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -919,38 +889,38 @@ Se voce quer comecar sua jornada com IA de forma estruturada, esse e o caminho m
 **Timing:** D+8, 15:00
 
 ```
-{{nome_expert}} aqui.
+Turma, atenção:
 
-Amanha a meia-noite o {{produto_downsell}} sai do ar.
+Amanhã à meia-noite o {{produto_downsell}} sai do ar.
 
-Se voce esta esperando o "momento perfeito" — ele nao existe. O melhor momento e agora.
+Se você está esperando o "momento perfeito" — ele não existe. O melhor momento é agora.
 
 👉 {{link_downsell}}
 
-— {{nome_expert}}
 ```
 
 ---
 
-### MSG-DOW-07 — D+9 Manha — Ultimo Dia
+### MSG-DOW-07 — D+9 Manhã — Último Dia
 
 **Timing:** D+9, 09:00
 
 ```
-🚨 ULTIMO DIA — {{nome_expert}} aqui.
+🚨 ÚLTIMO DIA
 
-Hoje a meia-noite o {{produto_downsell}} encerra de vez.
+Bom dia meu povo!
+
+Hoje à meia-noite o {{produto_downsell}} encerra de vez.
 
 Resumo final:
 ✅ {{inserir_principal_beneficio}}
 ✅ {{preco_downsell}}
-✅ Garantia {{garantia}}
+✅ Garantia 7 dias
 
 Depois de hoje, acabou. De verdade.
 
 👉 {{link_downsell}}
 
-— {{nome_expert}}
 ```
 
 ---
@@ -960,43 +930,42 @@ Depois de hoje, acabou. De verdade.
 **Timing:** D+9, 21:00
 
 ```
-Ultima mensagem. {{nome_expert}} aqui.
+Última mensagem, turma.
 
 Em 3 horas o {{produto_downsell}} sai do ar.
 
-Voce assistiu a aula. Voce sabe o que e possivel com IA. A unica questao e: voce vai agir ou vai deixar passar?
+Você assistiu a aula. Você sabe o que é possível com IA. A única questão é: você vai agir ou vai deixar passar?
 
-{{preco_downsell}} | Garantia {{garantia}} | Risco zero.
+{{preco_downsell}} | Garantia 7 dias | Risco zero.
 
 👉 {{link_downsell}}
 
-Desejo o melhor pra voce, independente da decisao. 🤝
+Desejo o melhor pra você, independente da decisão 🤝
 
-— {{nome_expert}}
 ```
 
 ---
 
-## Instrucoes de Configuracao
+## Instruções de Configuração
 
-### Para SendFlow / Ferramenta de Automacao
+### Para SendFlow / Ferramenta de Automação
 1. Criar grupo/comunidade WhatsApp
-2. Configurar 3 fases: Pre-Webinario / Pos-Webinario / Downsell
+2. Configurar 3 fases: Pré-Webinário / Pós-Webinário / Downsell
 3. Agendar mensagens conforme timeline acima
 4. Configurar deep links com Pixel para rastreamento
-5. Segmentar: compradores saem da sequencia de fechamento/downsell
+5. Segmentar: compradores saem da sequência de fechamento/downsell
 
 ### Para Envio Manual
 1. Copiar mensagem do template
-2. Substituir variaveis `{{...}}` pelos dados reais
-3. Enviar no horario indicado
-4. Registrar metricas (aberturas, cliques, respostas)
+2. Substituir variáveis de link (`{{link_...}}`) pelos links reais
+3. Enviar no horário indicado
+4. Registrar métricas (aberturas, cliques, respostas)
 
-### Segmentacao Recomendada
-- **Comprou durante o webinario:** Para sequencia pos-compra (onboarding)
-- **Assistiu e NAO comprou:** Recebe Ampliacao + Fechamento
-- **Nao assistiu:** Recebe replay + Ampliacao + Fechamento
-- **Nao comprou apos fechamento:** Recebe Downsell (se houver)
+### Segmentação Recomendada
+- **Comprou durante o webinário:** Para sequência pós-compra (onboarding)
+- **Assistiu e NÃO comprou:** Recebe Ampliação + Fechamento
+- **Não assistiu:** Recebe replay + Ampliação + Fechamento
+- **Não comprou após fechamento:** Recebe Downsell (se houver)
 
 ---
 
@@ -1011,5 +980,6 @@ Desejo o melhor pra voce, independente da decisao. 🤝
 
 ---
 
-*Gerado por @webinar-creator (Spark) — Metodologia "Webinario Infalivel" + "Perfect Webinar"*
+*Gerado por @webinar-creator (Spark) — Metodologia "Webinário Infalível" + "Perfect Webinar"*
 *41 mensagens organizadas por etapa do funil e pilar da Espiral de Vendas*
+*Revisado em 2026-03-10 — tom de voz ajustado para o estilo Caio*

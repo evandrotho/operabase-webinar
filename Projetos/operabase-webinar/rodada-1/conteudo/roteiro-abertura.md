@@ -55,10 +55,10 @@
 > **Alerta do Balelometro:** NAO listar titulos demais — causa descrenca.
 
 **Fala sugerida:**
-"Meu nome e Caio. Eu nao sou programador, nao sou de TI. Sou empresario como voce. Ha 4 anos comecei a estudar inteligencia artificial aplicada a negocios. Ha 18 meses mergulhei de cabeca. Resultado? Eu operava com 18 funcionarios — hoje opero 100% com agentes de IA. Zero equipe humana na operacao. E e exatamente isso que eu vou te mostrar como fazer hoje."
+"Meu nome e Caio. Eu nao sou programador, nao sou de TI. Sou empresario como voce. Ha 4 anos comecei a estudar inteligencia artificial aplicada a negocios. Ha 18 meses mergulhei de cabeca. Resultado? Eu operava com 18 funcionarios — hoje sou so eu e meu socio, com agentes de IA fazendo o trabalho que antes precisava de 18 pessoas. E e exatamente isso que eu vou te mostrar como fazer hoje."
 
 **Credencial principal:** Case pratico — resultado concreto, nao titulo
-**Resultado concreto:** 18 funcionarios substituidos por IA, operacao 100% automatizada
+**Resultado concreto:** 18 funcionarios substituidos por IA, operacao com apenas 2 pessoas + agentes de IA
 **Tempo de experiencia:** 4 anos estudando IA, 18 meses de imersao profunda
 
 ---
@@ -127,7 +127,7 @@
 ### Origin Story Seed
 
 > **Nota para secao de Empatia:** Usar esta historia de origem como base:
-> Caio era empresario com 18 funcionarios. Comecou a estudar IA, tentou usar ChatGPT como todo mundo e se frustrou. Descobriu que existia algo muito alem de chatbot — agentes de IA que executam trabalho real. Mergulhou fundo, montou uma infraestrutura propria e, em 18 meses, substituiu toda a equipe por IA. Hoje opera 100% com agentes. A epifania: "IA nao e chatbot — e infraestrutura."
+> Caio era empresario com 18 funcionarios. Comecou a estudar IA, tentou usar ChatGPT como todo mundo e se frustrou. Descobriu que existia algo muito alem de chatbot — agentes de IA que executam trabalho real. Mergulhou fundo, montou uma infraestrutura propria e, em 18 meses, substituiu a equipe por IA. Hoje opera so com seu socio + agentes de IA. A epifania: "IA nao e chatbot — e infraestrutura."
 
 ---
 

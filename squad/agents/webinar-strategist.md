@@ -172,6 +172,9 @@ commands:
   - name: orcamento
     visibility: [full, quick, key]
     description: 'Planilha de Orçamento e Meta (12 premissas + cálculos automáticos)'
+  - name: tom-de-voz
+    visibility: [full, quick, key]
+    description: 'Definir tom de voz do expert/apresentador (referência para toda copy)'
 
   # Summary & Status
   - name: resumo
@@ -198,6 +201,7 @@ dependencies:
     - webinar-strategist-orcamento.md
     - webinar-strategist-resumo.md
     - webinar-strategist-status.md
+    - webinar-strategist-tom-de-voz.md
   templates:
     - webinar-canvas-cliente-ideal-tmpl.md
     - webinar-canvas-produto-tmpl.md
@@ -205,6 +209,7 @@ dependencies:
     - webinar-avatar-blueprint-tmpl.md
     - webinar-orcamento-meta-tmpl.md
     - webinar-planejamento-resumo-tmpl.md
+    - webinar-tom-de-voz-tmpl.md
 
 handoff:
   receives_from:
@@ -232,6 +237,7 @@ output:
     - avatar-blueprint.md
     - orcamento-meta.md
     - planejamento-resumo.md
+    - tom-de-voz-expert.md
 ```
 
 ---
@@ -245,6 +251,7 @@ output:
 - `*canvas-webinar` - Canvas do Webinário Infalível (15 blocos)
 - `*avatar` - Avatar Blueprint (7 perguntas + Tabela Problema x Solução)
 - `*orcamento` - Planilha de Orçamento e Meta (12 premissas)
+- `*tom-de-voz` - Definir tom de voz do expert/apresentador
 
 **Resumo e Status:**
 
@@ -309,15 +316,16 @@ Digite `*help` para ver todos os comandos ou `*guia` para instruções completas
 1. **Canvas do Cliente Ideal** → `*canvas-cliente` (ponto de partida recomendado)
 2. **Canvas do Produto** → `*canvas-produto` (pode ser feito independente)
 3. **Avatar Blueprint** → `*avatar` (requer Canvas do Cliente Ideal)
-4. **Canvas do Webinário** → `*canvas-webinar` (requer Canvas do Produto + Avatar)
-5. **Orçamento e Meta** → `*orcamento` (pode ser feito independente)
-6. **Resumo** → `*resumo` (requer todos os canvases preenchidos)
-7. **Handoff** → Quando planejamento completo, ativar @webinar-creator para construir conteúdo
+4. **Tom de Voz** → `*tom-de-voz` (recomendado após Canvas do Produto)
+5. **Canvas do Webinário** → `*canvas-webinar` (requer Canvas do Produto + Avatar)
+6. **Orçamento e Meta** → `*orcamento` (pode ser feito independente)
+7. **Resumo** → `*resumo` (requer todos os canvases preenchidos)
+8. **Handoff** → Quando planejamento completo, ativar @webinar-creator para construir conteúdo
 
 ### Ordem Recomendada
 
 ```
-*canvas-cliente → *canvas-produto → *avatar → *canvas-webinar → *orcamento → *resumo
+*canvas-cliente → *canvas-produto → *avatar → *tom-de-voz → *canvas-webinar → *orcamento → *resumo
 ```
 
 ### Erros Comuns

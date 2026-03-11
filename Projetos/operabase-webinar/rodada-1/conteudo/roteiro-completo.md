@@ -50,12 +50,12 @@
 | 05:30 | Identificacao (4 frases) | Abertura | "Digite SIM no chat" |
 | 07:00 | Regras (3 "NAO e / isso e") | Abertura | One Thing Statement integrado |
 | 08:00 | Historia — Modelo A (7 passos) | Empatia | Tom introspectivo no inicio |
-| 08:00 | Passo 1: Situacao Anterior | Empatia | 18 funcionarios, preso na operacao |
+| 08:00 | Passo 1: Situacao Anterior | Empatia | 18 funcionarios, preso na operacao (hoje so Caio + socio + IA) |
 | 09:30 | Passo 2: Dramatizacao (Fundo do Poco) | Empatia | "Coloca no chat se ja se sentiu assim" |
 | 10:30 | Passo 3: Invalidacao de Solucoes | Empatia | ChatGPT → Agentes reativos → frustacao |
 | 12:00 | Passo 4: Epiphany Bridge | Empatia | **"IA nao e chatbot — e INFRAESTRUTURA"** |
 | 13:00 | Passo 5: O Metodo (18 meses) | Empatia | Dedicacao sem detalhes tecnicos |
-| 14:00 | Passo 6: Resultado (0 funcionarios) | Empatia | Tres dimensoes: financeiro, tempo, execucao |
+| 14:00 | Passo 6: Resultado (so Caio + socio + IA) | Empatia | Tres dimensoes: financeiro, tempo, execucao |
 | 15:00 | Passo 7: Transicao (Historia Disfarçada) | Empatia | "3 coisas que separam..." |
 | 16:00 | Secret 1 — Vehicle: "IA nao e chatbot" | Conteudo | 3 niveis de IA + 3 exemplos praticos |
 | 27:00 | Secret 2 — Internal: "Voce consegue" | Conteudo | Prova pessoal + analogia carro/app |
@@ -119,9 +119,9 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 
 ### Bloco 3 — Apresentacao Pessoal (01:30)
 
-> "Meu nome e Caio. Eu nao sou programador, nao sou de TI. Sou empresario como voce. Ha 4 anos comecei a estudar inteligencia artificial aplicada a negocios. Ha 18 meses mergulhei de cabeca. Resultado? Eu operava com 18 funcionarios — hoje opero 100% com agentes de IA. Zero equipe humana na operacao. E e exatamente isso que eu vou te mostrar como fazer hoje."
+> "Meu nome e Caio. Eu nao sou programador, nao sou de TI. Sou empresario como voce. Ha 4 anos comecei a estudar inteligencia artificial aplicada a negocios. Ha 18 meses mergulhei de cabeca. Resultado? Eu operava com 18 funcionarios — hoje sou so eu e meu socio, com agentes de IA fazendo o trabalho que antes precisava de 18 pessoas. E e exatamente isso que eu vou te mostrar como fazer hoje."
 
-**Credencial:** Case pratico (18 → 0 funcionarios), nao titulo.
+**Credencial:** Case pratico (18 → 2 pessoas + agentes de IA), nao titulo.
 
 ---
 
@@ -212,7 +212,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 
 ### Passo 6 — Resultado (14:00)
 
-> "Hoje eu opero 100% com agentes de IA. Zero funcionarios na operacao. Os 18 que eu tinha? Substituidos. E o resultado nao foi so financeiro — claro, a margem disparou porque a folha sumiu. Mas o que mais mudou foi minha vida."
+> "Hoje eu opero so com meu socio e agentes de IA. Os 18 funcionarios que eu tinha? Substituidos por IA. E o resultado nao foi so financeiro — claro, a margem disparou porque a folha praticamente sumiu. Mas o que mais mudou foi minha vida."
 >
 > "Eu tenho liberdade de tempo. A operacao roda sozinha. E o mais importante: os agentes de IA finalmente acompanham meu raciocinio. Pela primeira vez, eu tenho 'equipe' que executa na velocidade que eu penso."
 
@@ -379,7 +379,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 >
 > "**DEPOIS do OperaBase:** Voce tem uma infraestrutura de IA estruturada. Agentes que executam trabalho real na sua empresa — atendimento, relatorios, processos — tudo funcionando de forma autonoma. Voce ganha tempo, reduz custo com equipe e finalmente escala sem contratar."
 >
-> "Eu fiz essa transicao. Sai de 18 funcionarios pra zero na operacao. E isso que o OperaBase entrega pra voce: o atalho pra chegar la sem passar pelos 18 meses de tentativa e erro que eu passei."
+> "Eu fiz essa transicao. Sai de 18 funcionarios pra so eu e meu socio com IA. E isso que o OperaBase entrega pra voce: o atalho pra chegar la sem passar pelos 18 meses de tentativa e erro que eu passei."
 
 *Trial Close: "Voce gostaria de ter esse resultado?"*
 
@@ -495,7 +495,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 
 ### Etapa 8 — Reforco da Transformacao (~65:00)
 
-> "Pensa comigo: voce esta a um clique de distancia de ter acesso a mesma infraestrutura que me permitiu sair de 18 funcionarios para zero na operacao."
+> "Pensa comigo: voce esta a um clique de distancia de ter acesso a mesma infraestrutura que me permitiu sair de 18 funcionarios pra so eu e meu socio com agentes de IA."
 >
 > "Imagina daqui a 30 dias: seus agentes de IA rodando atendimento, relatorios, processos. Voce finalmente com tempo. A operacao funcionando sem depender 100% de voce."
 >
@@ -612,7 +612,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 > "Os frameworks sao adaptaveis a qualquer segmento. Temos alunos de servicos, comercio, industria. A infraestrutura espelhada se adapta ao SEU negocio."
 
 **"Esta caro."**
-> "Eu operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo sumiu. R$2.500 se paga no primeiro mes de economia."
+> "Eu operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo praticamente sumiu — hoje e so eu e meu socio. R$2.500 se paga no primeiro mes de economia."
 
 **"Nao tenho tempo."**
 > "E exatamente por nao ter tempo que voce precisa de IA. Voce nao comeca do zero — espelha o que ja funciona. E a IA vai te DEVOLVER tempo."
@@ -675,7 +675,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 |---|-------|-------|-------------------|
 | 1 | Headline (tela cheia) | Abertura | "Como empresarios comuns estao substituindo equipe inteira por IA..." |
 | 2 | Mecanismo Unico | Abertura | "Infraestrutura de IA Espelhada" |
-| 3 | Foto do Caio + credencial | Abertura | "18 → 0 funcionarios" |
+| 3 | Foto do Caio + credencial | Abertura | "18 → so eu e meu socio + IA" |
 | 4-5 | Lista de Aprendizado | Abertura | 5 bullets aparecendo um por um |
 | 6 | Bonus (urgencia) | Abertura | Kit de Implementacao Rapida (visual) |
 | 7 | Frases de identificacao | Abertura | 4 frases |
@@ -683,7 +683,7 @@ CTA FINAL   ████████████ FIRME + EMOCIONAL
 | 9 | Historia — Antes | Empatia | Foto Caio + "18 funcionarios" |
 | 10 | Jornada visual | Empatia | IAs avulsas → agentes reativos → infraestrutura |
 | 11 | Epifania | Empatia | "IA nao e chatbot — e INFRAESTRUTURA" |
-| 12 | Resultado | Empatia | "0 funcionarios, operacao 100% IA" |
+| 12 | Resultado | Empatia | "so Caio + socio, operacao com agentes de IA" |
 | 13 | Transicao "3 coisas" | Empatia | Teaser dos 3 Secrets |
 | 14-17 | Secret 1 | Conteudo | Chatbot vs Agente (3 exemplos visuais) |
 | 18-20 | Secret 2 | Conteudo | "Nao sou programador" + analogia carro/app |

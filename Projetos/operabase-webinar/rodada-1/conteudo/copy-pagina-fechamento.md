@@ -212,7 +212,7 @@ Os frameworks sao adaptaveis a qualquer segmento. Temos alunos de servicos, come
 
 ### Esta caro. Vale o investimento?
 
-Caio operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo sumiu. R$2.500 se paga no primeiro mes de economia com equipe e operacao. Alem disso: a partir de amanha o preco volta pra R$5.000.
+Caio operava com 18 funcionarios. So de folha eram milhares por mes. Com IA, esse custo praticamente sumiu — hoje e so ele e o socio. R$2.500 se paga no primeiro mes de economia com equipe e operacao. Alem disso: a partir de amanha o preco volta pra R$5.000.
 
 ### Nao tenho tempo para participar.
 
